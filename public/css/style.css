@@ -1,0 +1,25 @@
+.logo {
+    height: 40px;
+    width: 100%;
+}
+
+body {
+    font-family: 'Open Sans';
+}
+
+.filter-button.active {
+    background-color: #ffc107; /* Warna latar belakang saat tombol aktif */
+    color: #ffffff; /* Warna teks saat tombol aktif */
+  }
+  
+  
+
+.btn-outline-warning:hover {
+    color: #ffffff; /* Ubah warna teks menjadi putih saat tombol aktif */
+  }
+  
+  /* .JudulAbout {
+    font-family: 'montserrat';
+    font-size: 64px;
+    color: #FF9F0D;
+  } */

@@ -1,0 +1,38 @@
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    bottom: 300px;
+    z-index: 10;
+  }
+  
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+    height: 960px;
+  }
+  
+  
+  /* Responsif untuk perangkat mobile */
+  @media (max-width: 767px) {
+    .carousel-item {
+      height: 600px; /* Ubah tinggi sesuai kebutuhan Anda */
+    }
+  }
+
+  .filter {
+    filter: brightness(50%);
+  }
+  
+
+  .judulcarousel {
+    font-size: 72px;
+    max-width: 660px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+
+  .isicarousel{
+    font-size: 24px;
+    max-width: 660px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+  
